@@ -2,14 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Camp1 from './Pages/Camp1'
+import Cadastro from './pages/Cadastro.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Camp1/>
+    <Cadastro/>
     </>
   )
 }

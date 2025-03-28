@@ -1,18 +1,25 @@
 import React from 'react'
-import Login from './Login'
 
 const Camp1 = (props) => {
     return (
         <div>
-            <button className='Login-botton'>
-                <p>Login</p>
-            </button>
+            <form>
 
-            <hr />
+                <input className='labelEmail' type="text" placeholder='Email...' />
 
-            <button className='Senha-botton'>
-                <p>Senha</p>
-            </button>
+                <hr />
+
+                <button className='Login-botton'>
+                    <p>Login</p>
+                </button>
+
+                <hr />
+
+                <button className='Senha-botton'>
+                    <p>Senha</p>
+                </button>
+
+            </form>
         </div>
     )
 }

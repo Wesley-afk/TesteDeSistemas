@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React from 'react'
 
 const Camp1 = (props) => {
@@ -23,5 +24,28 @@ const Camp1 = (props) => {
         </div>
     )
 }
+=======
+import React from "react";
+import styles from "./LoginCSS.module.css";
 
-export default Camp1
+const Camp1 = (props) => {
+  return (
+    <div className={styles.body}>
+
+    <h1 className={styles.login}>LOGIN</h1>
+
+      <input type="text" placeholder="E-mail" className={styles.Email} />
+>>>>>>> Stashed changes
+
+      <input type="text" placeholder="Senha" className={styles.Senha}/>
+
+      {/* <button className={styles.Loginbutton}>Login</button>
+
+      <hr className={styles.hr} />
+
+      <button className={styles.senhabutton}>Login</button> */}
+    </div>
+  );
+};
+
+export default Camp1;

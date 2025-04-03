@@ -1,0 +1,28 @@
+.corpo{
+    background-color: rgb(56, 56, 230);
+    padding: 30%;
+    width: 60%;
+    border-radius: 15%;
+    align-items: center;
+}
+
+.input{
+    /* position: absolute; */
+    display: list-item;
+    justify-items: center;
+    top: 40%;
+    left: 38%;
+    width: 96%;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: rgb(68, 68, 234);
+}
+
+.buttonConf, .buttonCad {
+    /* position: absolute; */
+    padding: 10px 20px; /* Ajuste o padding para melhor aparência */
+    margin: 0; /* Remove margens extras */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 10px;
+}

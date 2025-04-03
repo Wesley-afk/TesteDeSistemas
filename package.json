@@ -5,11 +5,24 @@
   "name": "cadastro_login",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wesley-afk/TesteDeSistemas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wesley-afk/TesteDeSistemas/issues"
+  },
+  "homepage": "https://github.com/Wesley-afk/TesteDeSistemas#readme"
 }
